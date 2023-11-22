@@ -3,10 +3,10 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center gap-5">
       <Link
-        href="/linear_regression_workshop"
+        href="/workshops"
         className="underline text-sm md:text-xl text-center"
       >
-        Linear Regression Workshop
+        Workshops
       </Link>
       <Link
         href="/ml_bytes"

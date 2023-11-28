@@ -3,7 +3,10 @@ import Link from "next/link";
 export default function Page() {
   return (
     <div className="flex flex-col justify-center items-center gap-5">
-      <Link href="" className="underline text-sm md:text-xl text-center">
+      <Link
+        href="https://colab.research.google.com/drive/19l1M7lAPooHxfmkZByKhuJDHaNrLRsYA?usp=sharing"
+        className="underline text-sm md:text-xl text-center"
+      >
         Get the Notebook
       </Link>
       {/* <Link

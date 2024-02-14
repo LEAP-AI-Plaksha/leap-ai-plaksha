@@ -14,6 +14,12 @@ export default function Workshop() {
       >
         Logistic Regression
       </Link>
+      <Link
+        href="/workshops/langchain"
+        className="underline text-sm md:text-xl text-center"
+      >
+        Langchain
+      </Link>
     </div>
   );
 }

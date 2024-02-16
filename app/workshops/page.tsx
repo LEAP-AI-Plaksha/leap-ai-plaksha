@@ -18,7 +18,7 @@ export default function Workshop() {
         href="/workshops/langchain"
         className="underline text-sm md:text-xl text-center"
       >
-        Langchain
+        LangChain
       </Link>
     </div>
   );

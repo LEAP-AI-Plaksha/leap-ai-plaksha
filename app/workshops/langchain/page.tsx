@@ -10,19 +10,26 @@ export default function Page() {
             >
                 Get the Notebook
             </Link>
-            {/*<Link
-        href="/presentations/Linear_Regression_Workshop_Presentation.pdf"
-        className="underline text-sm md:text-xl text-center"
-        target="_blank"
-      >
-        Download the Presentation
-      </Link>*/}
+           {/*<Link
+              href="/presentations/LangChain_Workshop_Presentation.pdf"
+              className="underline text-sm md:text-xl text-center"
+              target="_blank"
+            >
+              Download the Presentation
+            </Link>*/}
             <Link
                 href="https://plakshauniversity1-my.sharepoint.com/:b:/g/personal/vardhaman_k_ug23_plaksha_edu_in/EfaZopMHO5hKo438ESIs66IBKr5sMRIfuFgn4nNVtoeNsA?e=AxjCwU"
                 className="underline text-sm md:text-xl text-center"
             >
                 Post Workshop Content
             </Link>
-        </div>
-    );
+      <hr></hr>
+      <Link
+        href="https://www.langchain.com/"
+        className="underline text-sm md:text-xl text-center"
+      >
+        Discover LangChain&apos;s Website
+      </Link>
+    </div>
+  );
 }

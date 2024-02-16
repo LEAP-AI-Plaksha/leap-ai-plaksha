@@ -10,18 +10,25 @@ export default function Page() {
       >
         Get the Notebook
       </Link>
-      {/*<Link
-        href="/presentations/Linear_Regression_Workshop_Presentation.pdf"
+      {/* <Link
+        href="/presentations/LangChain_Workshop_Presentation.pdf"
         className="underline text-sm md:text-xl text-center"
         target="_blank"
       >
         Download the Presentation
-      </Link>*/}
+      </Link> */}
       <Link
         href="#"
         className="underline text-sm md:text-xl text-center"
       >
         Post Workshop Content
+      </Link>
+      <hr></hr>
+      <Link
+        href="https://www.langchain.com/"
+        className="underline text-sm md:text-xl text-center"
+      >
+        Discover LangChain&apos;s Website
       </Link>
     </div>
   );

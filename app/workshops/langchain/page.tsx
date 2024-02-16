@@ -23,6 +23,13 @@ export default function Page() {
       >
         Post Workshop Content
       </Link>
+      <hr></hr>
+      <Link
+        href="https://www.langchain.com/"
+        className="underline text-sm md:text-xl text-center"
+      >
+        Discover LangChain&apos;s Website
+      </Link>
     </div>
   );
 }

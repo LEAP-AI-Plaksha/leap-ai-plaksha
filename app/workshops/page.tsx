@@ -18,7 +18,13 @@ export default function Workshop() {
         href="/workshops/langchain"
         className="underline text-sm md:text-xl text-center"
       >
-        Langchain
+        LangChain
+      </Link>
+      <Link
+        href="/workshops/cnn_workshop"
+        className="underline text-sm md:text-xl text-center"
+      >
+        CNN Workshop
       </Link>
     </div>
   );
